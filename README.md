@@ -20,9 +20,9 @@
 - [❓ FAQ](#faq)
 - [📝 License](#license)
 
-# 📖 [Vet-Clinic-Database] <a name="about-project"></a>
+# 📖 Vet-Clinic-Database <a name="about-project"></a>
 
-**[Vet-Clinic-Database]** This project involves creating a database for a vet clinic, structuring tables to record pet details, and implementing queries to retrieve specific data. The primary focus is on the management of animal data, such as their names, birthdates, weights, neutering status, and escape attempts.
+This project involves creating a database for a vet clinic, structuring tables to record pet details, and implementing queries to retrieve specific data. The primary focus is on the management of animal data, such as their names, birthdates, weights, neutering status, and escape attempts.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -46,9 +46,9 @@
 ### Key Features <a name="key-features"></a>
 
 
-- **[SQL Database Management]**
-- **[Advanced Querying Capabilities]**
-- **[Relational Databases]**
+- **SQL Database Management**
+- **Advanced Querying Capabilities**
+- **Relational Databases**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -98,9 +98,9 @@ Clone this repository to your desired folder:
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-- [ ] **[Update animal data]**
-- [ ] **[Medical History Module]**
-- [ ] **[Appointment Scheduling]**
+- [ ] **Update animal data**
+- [ ] **Medical History Module**
+- [ ] **Appointment Scheduling**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
