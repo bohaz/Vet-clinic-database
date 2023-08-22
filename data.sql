@@ -24,3 +24,41 @@ UPDATE animals SET owner_id = (SELECT id FROM owners WHERE full_name = 'Sam Smit
 UPDATE animals SET owner_id = (SELECT id FROM owners WHERE full_name = 'Jennifer Orwell') WHERE name IN ('Gabumon', 'Pikachu');
 UPDATE animals SET owner_id = (SELECT id FROM owners WHERE full_name = 'Bob') WHERE name IN ('Devimon', 'Plantmon');
 UPDATE animals SET owner_id = (SELECT id FROM owners WHERE full_name = 'Melody Pond') WHERE name IN ('Charmander', 'Squirtle', 'Blossom');
+
+INSERT INTO vets (name, age, date_of_graduation) VALUES 
+('William Tatcher', 45, '2000-04-23'),
+('Maisy Smith', 26, '2019-01-17'),
+('Stephanie Mendez', 64, '1981-05-04'),
+('Jack Harkness', 38, '2008-06-08');
+
+INSERT INTO specializations (vet_id, species_id) VALUES 
+(1, (SELECT id FROM species WHERE name = 'Pokemon'));
+
+INSERT INTO specializations (vet_id, species_id) VALUES 
+(3, (SELECT id FROM species WHERE name = 'Pokemon')),
+(3, (SELECT id FROM species WHERE name = 'Digimon'));
+
+INSERT INTO specializations (vet_id, species_id) VALUES 
+(4, (SELECT id FROM species WHERE name = 'Digimon'));
+
+INSERT INTO visits (vet_id, animal_id, visit_date) VALUES
+(1, (SELECT id FROM animals WHERE name = 'Agumon'), '2020-05-24'),
+(3, (SELECT id FROM animals WHERE name = 'Agumon'), '2020-07-22'),
+(4, (SELECT id FROM animals WHERE name = 'Gabumon'), '2021-02-02'),
+(2, (SELECT id FROM animals WHERE name = 'Pikachu'), '2020-01-05'),
+(2, (SELECT id FROM animals WHERE name = 'Pikachu'), '2020-03-08'),
+(2, (SELECT id FROM animals WHERE name = 'Pikachu'), '2020-05-14'),
+(3, (SELECT id FROM animals WHERE name = 'Devimon'), '2021-05-04'),
+(4, (SELECT id FROM animals WHERE name = 'Charmander'), '2021-02-24'),
+(2, (SELECT id FROM animals WHERE name = 'Plantmon'), '2019-12-21'),
+(1, (SELECT id FROM animals WHERE name = 'Plantmon'), '2020-08-10'),
+(2, (SELECT id FROM animals WHERE name = 'Plantmon'), '2021-04-07'),
+(3, (SELECT id FROM animals WHERE name = 'Squirtle'), '2019-09-29'),
+(4, (SELECT id FROM animals WHERE name = 'Angemon'), '2020-10-03'),
+(4, (SELECT id FROM animals WHERE name = 'Angemon'), '2020-11-04'),
+(2, (SELECT id FROM animals WHERE name = 'Boarmon'), '2019-01-24'),
+(2, (SELECT id FROM animals WHERE name = 'Boarmon'), '2019-05-15'),
+(2, (SELECT id FROM animals WHERE name = 'Boarmon'), '2020-02-27'),
+(2, (SELECT id FROM animals WHERE name = 'Boarmon'), '2020-08-03'),
+(3, (SELECT id FROM animals WHERE name = 'Blossom'), '2020-05-24'),
+(1, (SELECT id FROM animals WHERE name = 'Blossom'), '2021-01-11');
