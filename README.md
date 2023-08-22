@@ -90,7 +90,7 @@ Clone this repository to your desired folder:
 
 - GitHub: [@bohaz](https://github.com/bohaz)
 - Twitter: [@Ricardo29115571](https://twitter.com/Ricardo29115571)
-- LinkedIn: [LinkedIn](www.linkedin.com/in/ricardomartínez∴)
+- LinkedIn: [Ricardo Martinez](https://www.linkedin.com/in/ricardomart%C3%ADnez%E2%88%B4/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
