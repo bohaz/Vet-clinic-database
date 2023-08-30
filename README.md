@@ -24,6 +24,8 @@
 
 This project involves creating a database for a vet clinic, structuring tables to record pet details, and implementing queries to retrieve specific data. The primary focus is on the management of animal data, such as their names, birthdates, weights, neutering status, and escape attempts.
 
+<img src="./assets/schema.png" alt="schema" />
+
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
